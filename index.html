@@ -55,6 +55,24 @@
       max-width: 120px;
       margin-top: 1em;
     }
+    .content-block {
+      display: flex;
+      flex-direction: row;
+      align-items: flex-start;
+      gap: 1rem;
+      margin-top: 1rem;
+      flex-wrap: wrap;
+    }
+    .interest-img {
+      width: 200px;
+      height: auto;
+      border-radius: 6px;
+    }
+    .description {
+      flex: 1;
+      min-width: 200px;
+    }
+    }
   </style>
 </head>
 <body>
@@ -66,29 +84,39 @@
 
   <main>
 
-    <section>
-      <h2>🎮 打電動</h2>
-      <div class="interest">
-        <p><strong>遊戲名稱：</strong>《光與影：33號遠征隊》（Clair Obscur: Expedition 33）</p>
-        <img src="https://upload.wikimedia.org/wikipedia/zh/4/4b/Clair_Obscur%2C_Expedition_33_cover.jpeg" alt="Clair Obscur: Expedition 33 遊戲封面">
-      </div>
-    </section>
+   <section>
+  <h2>🎮 我喜歡打電動</h2>
+  <div class="content-block">
+    <img class="interest-img" src="https://upload.wikimedia.org/wikipedia/zh/4/4b/Clair_Obscur%2C_Expedition_33_cover.jpeg" alt="光與影：33號遠征隊" />
+    <div class="description">
+      <p><strong>遊戲名稱：</strong>《光與影：33號遠征隊》</p>
+      <p><strong>介紹：</strong>這是一款回合制角色扮演遊戲，雖然該遊戲採回合制，但在玩家釋放技能及敵人攻擊時，都會觸發QTE，該創新組合使得該遊戲相較傳統JRPG遊戲，更加緊張刺激，因此使該作品大受歡迎。遊戲美術大多採維多利亞時代的風格，同時劇情也引人入勝。在發售後大獲好評，我個人也很喜歡。</p>
+    </div>
+  </div>
+</section>
 
-    <section>
-      <h2>🎵 聽音樂</h2>
-      <div class="interest">
-        <p><strong>專輯名稱：</strong>DON’T TAP THE GLASS</p>
-        <img src="https://i.scdn.co/image/ab67616d00001e02979047951fa8b15df9f9e984" alt="DON’T TAP THE GLASS 專輯封面">
-      </div>
-    </section>
+<section>
+  <h2>🎵 我喜歡聽音樂</h2>
+  <div class="content-block">
+    <img class="interest-img" src="https://i.scdn.co/image/ab67616d00001e02979047951fa8b15df9f9e984" alt="DON’T TAP THE GLASS 專輯封面" />
+    <div class="description">
+      <p><strong>專輯名稱：</strong>DON’T TAP THE GLASS</p>
+      <p><strong>介紹：</strong>這張專輯是Tyler, the Creator的第九張專輯。<br>
+        Tyler說他曾問朋友們為什麼不敢在公開場合跳舞，有些人回答因為害怕被拍成影片。他感嘆道，跳舞這種自然的表達方式，原本與音樂之間的真誠連結，如今竟成了幽靈般消失無蹤。他開始思考，人們有多少「人性中的靈魂」只是因為害怕成為迷因、被嘲笑，就在享樂的途中被扼殺了。這張專輯的創作並不是為了靜靜坐著而存在，而是鼓勵聽者起身舞動、開車、奔跑——任何形式的動作，才能真正體會這張作品的靈魂，最好還是在最大音量下。</p>
+    </div>
+  </div>
+</section>
 
-    <section>
-      <h2>🎬 看電影</h2>
-      <div class="interest">
-        <p><strong>電影名稱：</strong>《橫山家之味》（歩いても 歩いても）</p>
-        <img src="https://apl-hamivideo.cdn.hinet.net/HamiVideo/getHamiVideoImg.php?imageId=sourceImages@55@95723_1.jpg" alt="橫山家之味 電影海報">
-      </div>
-    </section>
+<section>
+  <h2>🎬 我喜歡看電影</h2>
+  <div class="content-block">
+    <img class="interest-img" src="https://apl-hamivideo.cdn.hinet.net/HamiVideo/getHamiVideoImg.php?imageId=sourceImages@55@95723_1.jpg" alt="橫山家之味" />
+    <div class="description">
+      <p><strong>電影名稱：</strong>《橫山家之味》</p>
+      <p><strong>介紹：</strong>是一部由是枝裕和執導的溫馨家庭電影，描繪一家人因家中長子忌日而團聚的過程，這部電影可能看起來很普通，卻散發出微妙而迷人的魅力，反映出日本家庭的情感距離與複雜關係。</p>
+    </div>
+  </div>
+</section>
 
     <blockquote>
       本站內容為個人興趣介紹作業之用。
